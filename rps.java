@@ -2,8 +2,7 @@
 
 Old school rock, paper and scissor game with true dedicated random choice generator
 Written by Shreyan Dey.
-Copyright 2018 AUDE labs.
-All rights reserved.
+Copyright(C) 2018 Shreyan Dey
 v1.5
 Compiled on 23/3/2018
 
@@ -16,6 +15,10 @@ class rps
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Rock Paper & Scissors!");
+		System.out.println();
+		System.out.println("Copyright(C) 2018 Shreyan Dey");
+		System.out.println();
 		System.out.print("Enter the number of turns you want to play: ");
 		int n = sc.nextInt();
 		System.out.println();
